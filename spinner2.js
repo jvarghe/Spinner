@@ -8,14 +8,14 @@
 // one full cycle.
 const displaySpinner = function() {
 
-  // This contains spinner characters. 
+  // This contains spinner characters.
   const spinners = ["|", "/", "—", "\\", "|", "/", "—", "\\", "|", ];
 
   // The delay variable starts at 100 ms.
   let delay = 100;
 
 
-  // This loop iterates over the `spinners` array. 
+  // This loop iterates over the `spinners` array.
   for (const element of spinners) {
   
 
